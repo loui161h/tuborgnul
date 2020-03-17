@@ -1,1 +1,16 @@
+/* GENERELLE INDSTILLINGER */
+* {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+/* GENERELLE INDSTILLINGER SLUT */
