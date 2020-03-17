@@ -15,7 +15,6 @@
         <nav>
             <div class="container">
 
-                <!-- Her har vi valgt at bruge et + til at åbne sidenavigationen. -->
                 <span onclick="openNav()"><img src="ikoner/menu.svg" alt="menu"></span>
 
 
@@ -26,16 +25,15 @@
                 </a>
             </div>
 
-
-            <!--  her har vi tilføjet indhold til navigationen når man åbner menuen via + -->
-
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="ikoner/kryds.svg" alt="kryds"></a>
                 <div class="navlogo"><img class="logo" src="ikoner/logo.svg" alt="logo"></div>
-                <a href="#">Konkurrence</a>
-                <a href="#">Tuborg 0,0 dut</a>
-                <a href="#">Kampagnefilm</a>
-                <a href="#">Nyhedsbrev</a>
+                <div class="menu">
+                    <a href="#">Konkurrence</a>
+                    <a href="#">Tuborg 0,0 dut</a>
+                    <a href="#">Kampagnefilm</a>
+                    <a href="#">Nyhedsbrev</a>
+                </div>
             </div>
 
         </nav>
@@ -65,10 +63,10 @@
     </section>
 
     <section id="sectionwrapper">
-        <div class="headline">
+        <div class="citat">
             <h2>"Du behøver ikke at drikke, men du kan godt"</h2>
         </div>
-        <div class="undertekst">
+        <div class="undercitat">
             <p>..vi bringer nemlig en velbalanceret
                 pilsner med nul alkohol</p>
         </div>
@@ -76,15 +74,19 @@
 
     </section>
 
+    <section id="sectionwrapper">
+        <div class=""></div>
+
+
+
+    </section>
 
 
     <script>
-        /* Her har vi sat width til 500px fordi menuen skal gå helt ud til kanten på mobilsiden*/
         function openNav() {
             document.getElementById("mySidenav").style.width = "100%";
         }
 
-        /* Her har vi sat width på side naven til 0 når den skal lukke igen*/
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }

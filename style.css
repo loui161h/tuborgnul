@@ -22,11 +22,12 @@ img {
 
 /* HEADER LOGO */
 .logo img {
-    /*    position: fixed;*/
     width: 66px;
     height: 66px;
     margin: 2vw;
+
 }
+
 
 .navlogo img {
     width: 66px;
@@ -56,7 +57,6 @@ span {
 .sidenav {
     height: 100%;
     width: 0;
-    /* 0 width - det ændrer vi med javascript*/
     position: fixed;
     z-index: 1;
     top: 0;
@@ -64,11 +64,9 @@ span {
     background-color: #FCF3EB;
     overflow-x: hidden;
     padding-top: 160px;
-    /* transition effekten gør at menuen er 0,5 sekunder om at slide ud */
     transition: 0.3s;
 }
 
-/* Navigation med links som vi ændrer i herunder */
 .sidenav a {
     text-decoration: none;
     font-size: 2rem;
@@ -77,14 +75,15 @@ span {
     transition: 0.3s;
     text-transform: uppercase;
     text-align: center;
-    line-height: 4rem;
+    line-height: 6rem;
+
 }
 
 .sidenav a:hover {
     color: #FAC177;
 }
 
-/* Her styler vi x knappen */
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -96,7 +95,6 @@ span {
     margin: 2vw;
 }
 
-/* Her skubber vi indholdet som vi gerne vil have det, så det står rigtigt i menuen*/
 #main {
     transition: margin-left .5s;
     padding: 20px;
@@ -155,29 +153,32 @@ span {
 }
 
 
-.headline h2 {
+.citat h2 {
     text-align: center;
     color: #FAC177;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-style: italic;
-    margin: 10px;
+    font-weight: 100;
+    margin: 45px;
 }
 
-.undertekst p {
-    font-size: 1.2rem;
+.undercitat p {
+    font-size: 1rem;
     text-align: center;
-    margin: 80px;
+    margin: 40px;
+    margin-top: -15px;
     font-style: italic;
     color: #093A82;
 }
 
 
+/* TEKST SLUT */
 
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 800px) {
     body {
-        background-image: url(webimg.png);
+        background-image: url(baggrundsbilleder/webimg.png);
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
@@ -249,27 +250,21 @@ span {
 
     }
 
-    .headline h2 {
+    .citat h2 {
         font-size: 5rem;
         color: white;
         margin: 135px;
 
     }
 
-    .undertekst p {
+    .undercitat p {
         font-size: 2.5rem;
         text-align: center;
-        padding-left: 250px;
-        padding-right: 250px;
+        margin-top: -70px;
         font-style: italic;
 
     }
 }
-
-
-
-
-
 
 
 /* MEDIA QUERIES SLUT */
