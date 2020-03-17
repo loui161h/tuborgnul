@@ -19,12 +19,24 @@ img {
 
 /* GENERELLE INDSTILLINGER SLUT */
 
-
+/* HEADER LOGO */
 .logo img {
+    /*    position: fixed;*/
     width: 66px;
     height: 66px;
     margin: 2vw;
 }
+
+.navlogo img {
+    width: 66px;
+    height: 66px;
+    margin: 2vw;
+    top: 5px;
+    position: absolute;
+}
+
+/* HEADER LOGO SLUT */
+
 
 /* SIDE NAVIGATION */
 /* Side navigation menu */
@@ -101,7 +113,7 @@ span {
     text-align: center;
     color: #093A82;
     font-size: 5.5rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 
 }
 
@@ -119,6 +131,7 @@ span {
     font-style: italic;
     font-size: 1.5rem;
     margin: 3rem;
+    margin-top: -10px;
 
 }
 
@@ -133,6 +146,16 @@ span {
 
 }
 
+.beer img {
+    width: 24%;
+    margin: 10vw;
+    margin-top: -23vw;
+
+}
+
+
+
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 800px) {
@@ -146,6 +169,12 @@ span {
     }
 
     .logo img {
+        width: 99px;
+        height: 99px;
+
+    }
+
+    .navlogo img {
         width: 99px;
         height: 99px;
 
@@ -184,6 +213,7 @@ span {
     .headline2 p {
         font-size: 2rem;
         text-align: end;
+        margin-top: 8vw;
     }
 
     .headline2 h1 {
@@ -192,6 +222,14 @@ span {
         text-align: end;
         padding-right: 55px;
     }
+
+    .beer img {
+        width: 20%;
+        margin: 6vw;
+        margin-top: -36vw;
+
+    }
+
 }
 
 
