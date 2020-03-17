@@ -8,7 +8,7 @@ body {
     font-family: 'Abril Fatface', cursive;
     background-attachment: fixed;
     width: 100%;
-    background-image: url();
+    background-color: #FCF3EB;
 }
 
 
@@ -20,15 +20,107 @@ img {
 /* GENERELLE INDSTILLINGER SLUT */
 
 
+/* SIDE NAVIGATION */
+/* Side navigation menu */
+span {
+    display: inline-block;
+    margin: 1.1rem 2.5rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+
+
+}
+
+span a:hover {
+    color: #cbad99;
+}
+
+span:hover {
+    opacity: 50%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    /* 0 width - det ændrer vi med javascript*/
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #FCF3EB;
+    overflow-x: hidden;
+    padding-top: 120px;
+    /* transition effekten gør at menuen er 0,5 sekunder om at slide ud */
+    transition: 0.5s;
+}
+
+/* Navigation med links som vi ændrer i herunder */
+.sidenav a {
+    /* padding: 10px 8px 8px 88px;*/
+    text-decoration: none;
+    font-size: 2rem;
+    color: #093A82;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.sidenav a:hover {
+    color: #FAC177;
+}
+
+/* Her styler vi x knappen */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.8rem;
+    display: inline-block;
+    margin: 1.1rem 2.5rem;
+    cursor: pointer;
+}
+
+/* Her skubber vi indholdet som vi gerne vil have det, så det står rigtigt i menuen*/
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* Menu slut */
+
+
+
+/* TEKST */
+
+.splash h1 {
+    text-align: center;
+
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 800px) {
     body {
-        background-image: url();
+        background-image: url(webbackground.png);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+
     }
 
+    .sidenav a {
+        font-size: 2.5rem;
+
+    }
+}
 
 
 
 
-    /* MEDIA QUERIES SLUT */
+
+
+/* MEDIA QUERIES SLUT */

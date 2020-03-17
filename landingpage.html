@@ -13,13 +13,54 @@
 
     <header>
         <nav>
+            <div class="container">
+                <!-- Her har vi valgt at bruge et + til at åbne sidenavigationen. -->
+                <span onclick="openNav()">+</span>
 
+
+
+                <a href="landingpage.html">
+                    <div class="logo">
+                        <img src="">
+                    </div>
+                </a>
+            </div>
+
+
+            <!--  her har vi tilføjet indhold til navigationen når man åbner menuen via + -->
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <img class="logo" src="">
+                <a href="#">KONKURRENCE</a>
+                <a href="#">TUBORG 0,0 DUT</a>
+                <a href="#">KAMPAGNEFILM</a>
+                <a href="#">NYHEDSBREV</a>
+            </div>
 
         </nav>
 
 
     </header>
 
-</body>
+    <section id="col">
+        <div class="splash">
+            <h1>TUBORG</h1>
+        </div>
 
-</html>
+    </section>
+
+
+    <script>
+        /* Her har vi sat width til 500px fordi menuen skal gå helt ud til kanten på mobilsiden*/
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        /* Her har vi sat width på side naven til 0 når den skal lukke igen*/
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+</body></html>
