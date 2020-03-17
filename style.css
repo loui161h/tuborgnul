@@ -177,7 +177,7 @@ span {
 
 @media only screen and (min-width: 800px) {
     body {
-        background-image: url(webbackground.png);
+        background-image: url(webimg.png);
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
