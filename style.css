@@ -20,26 +20,25 @@ img {
 /* GENERELLE INDSTILLINGER SLUT */
 
 
+.logo img {
+    width: 66px;
+    height: 66px;
+    margin: 2vw;
+}
+
 /* SIDE NAVIGATION */
 /* Side navigation menu */
 span {
     display: inline-block;
-    margin: 1.1rem 2.5rem;
-    font-size: 2.5rem;
+    margin: 2vw;
     cursor: pointer;
     position: fixed;
     right: 0;
-
-
+    width: 88px;
+    height: 88px;
 }
 
-span a:hover {
-    color: #cbad99;
-}
 
-span:hover {
-    opacity: 50%;
-}
 
 .sidenav {
     height: 100%;
@@ -58,7 +57,6 @@ span:hover {
 
 /* Navigation med links som vi ændrer i herunder */
 .sidenav a {
-    /* padding: 10px 8px 8px 88px;*/
     text-decoration: none;
     font-size: 2rem;
     color: #093A82;
@@ -78,10 +76,11 @@ span:hover {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 1.8rem;
     display: inline-block;
-    margin: 1.1rem 2.5rem;
     cursor: pointer;
+    width: 88px;
+    height: 88px;
+    margin: 2vw;
 }
 
 /* Her skubber vi indholdet som vi gerne vil have det, så det står rigtigt i menuen*/
@@ -90,26 +89,48 @@ span:hover {
     padding: 20px;
 }
 
+
+
 /* Menu slut */
 
 
 
 /* TEKST */
 
-.splash h1 {
+.headline h1 {
     text-align: center;
-    color: white;
-    font-size: 4rem;
+    color: #093A82;
+    font-size: 5.5rem;
     margin-top: 5rem;
 
 }
 
-.splash p {
+.headline p {
     text-align: center;
     color: #093A82;
     font-style: italic;
     font-size: 1.5rem;
-    margin-top: -30px;
+    margin-top: -70px;
+}
+
+.headline2 p {
+    text-align: center;
+    color: #093A82;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin: 3rem;
+
+}
+
+.headline2 h1 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    color: #FAC177;
+    font-size: 3rem;
+    margin-top: -6vw;
+
+
 }
 
 /* MEDIA QUERIES */
@@ -121,11 +142,55 @@ span:hover {
         background-size: cover;
         background-repeat: no-repeat;
 
+
     }
+
+    .logo img {
+        width: 99px;
+        height: 99px;
+
+    }
+
+
+    span {
+        width: 66px;
+        height: 66px;
+
+
+    }
+
+    .sidenav .closebtn {
+        width: 66px;
+        height: 66px;
+
+    }
+
 
     .sidenav a {
         font-size: 2.5rem;
 
+    }
+
+    .headline h1 {
+        font-size: 8rem;
+        color: white;
+    }
+
+    .headline p {
+        font-size: 2rem;
+        margin-top: -120px;
+    }
+
+    .headline2 p {
+        font-size: 2rem;
+        text-align: end;
+    }
+
+    .headline2 h1 {
+        font-size: 4rem;
+        margin-top: -4vw;
+        text-align: end;
+        padding-right: 55px;
     }
 }
 
