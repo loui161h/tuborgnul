@@ -62,9 +62,9 @@ span {
     right: 0;
     background-color: #FCF3EB;
     overflow-x: hidden;
-    padding-top: 120px;
+    padding-top: 160px;
     /* transition effekten gør at menuen er 0,5 sekunder om at slide ud */
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 /* Navigation med links som vi ændrer i herunder */
