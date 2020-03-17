@@ -98,7 +98,18 @@ span:hover {
 
 .splash h1 {
     text-align: center;
+    color: white;
+    font-size: 4rem;
+    margin-top: 5rem;
 
+}
+
+.splash p {
+    text-align: center;
+    color: #093A82;
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-top: -30px;
 }
 
 /* MEDIA QUERIES */
