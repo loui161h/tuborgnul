@@ -235,11 +235,8 @@ span {
 
 }
 
-.video {
+.video img {
     width: 100%;
-    height: 50vw;
-    background-color: white;
-    border: 1px solid black;
 }
 
 .beskrivelse h3 {
