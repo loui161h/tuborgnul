@@ -252,7 +252,8 @@ span {
     text-align: center;
     color: gray;
     font-size: 0.8rem;
-    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+
 
 }
 
@@ -355,6 +356,7 @@ span {
         text-align: center;
         margin-top: -70px;
         font-style: italic;
+
 
     }
 
