@@ -217,17 +217,7 @@ span {
     padding: 15px;
 }
 
-.boks p {
-    text-transform: uppercase;
-    color: #093A82;
 
-}
-
-.lilletekst p {
-    font-size: 0.8rem;
-    display: inline-block;
-    align-content: space-between;
-}
 
 .slidecontainer {
     width: 100%;
@@ -251,7 +241,7 @@ span {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #093A82;
+    background-color: #4CAF50;
     cursor: pointer;
 }
 
