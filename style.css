@@ -620,6 +620,8 @@ footer {
 
     }
 
+    /* HEADER */
+
     .logo img {
         width: 99px;
         height: 99px;
@@ -654,52 +656,67 @@ footer {
 
     }
 
+    /* HEADER SLUT */
+
+    /* SPLASH */
+
     .headline h1 {
-        font-size: 8rem;
+        font-size: 6rem;
         color: white;
     }
 
     .headline p {
         font-size: 2rem;
-        /*    padding-top: -120px;*/
     }
 
     .headline2 p {
         font-size: 2rem;
         text-align: end;
-        /*     padding-top: 8vw;*/
+
+        /*padding-top: 8vw;*/
     }
 
     .headline2 h1 {
         font-size: 4rem;
-        /*        margin-top: -4vw;*/
+        margin-top: -2vw;
         text-align: end;
-        padding-right: 55px;
+        /* padding-right: 55px;*/
+    }
+
+    .beer {
+        justify-content: flex-start;
     }
 
     .beer img {
         width: 20%;
-        margin: 6vw;
-        /*margin-top: -36vw;*/
-
+        margin-top: -45vw;
     }
 
+
+
     .citat h2 {
-        font-size: 5rem;
+        font-size: 3rem;
         color: white;
-        margin: 135px;
+        /* margin: 135px;*/
 
     }
 
     .undercitat p {
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
         /*     margin-top: -70px;*/
         font-style: italic;
 
-
     }
 
+
+    /* TEKST SLUT */
+
+    /* SMAG */
+
+    .smag {
+        display: flex;
+    }
 
     .smag img {
         width: 50%;
@@ -708,15 +725,20 @@ footer {
 
     .boks {
         width: 30vw;
-        height: 45vw;
+
     }
 
     .boks2 {
         width: 60%;
-        height: 40vw;
+        height: 34vw;
 
     }
 
+
+
+
+
+    /* SMAG SLUT */
 
 }
 
