@@ -271,6 +271,7 @@ span {
 
 
 
+
 /* BLAA BOKS SLUT */
 
 
@@ -293,16 +294,44 @@ span {
 }
 
 .orangeboks {
-    display: flex;
     border: solid #FAC177;
-    height: 300px;
+    height: 260px;
+
+}
+
+.daaser {
+    display: flex;
+
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .daase img {
-    margin-top: 70px;
+    margin-top: 50px;
     width: 80%;
+}
+
+.knap {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    /* padding-left: 90px;
+    padding-right: 90px;*/
+
+}
+
+button {
+
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    color: #093A82;
+    background-color: #BEE0D9;
+    padding: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 40px;
+
 }
 
 
@@ -352,7 +381,7 @@ span {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
-    color: white;
+    color: #093A82;
     background-color: #BEE0D9;
     padding: 16px;
     padding-left: 50px;
