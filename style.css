@@ -188,7 +188,7 @@ span {
     background-color: #FAC177;
     width: 100%;
     height: 400px;
-    margin-top: 50px;
+    /*    margin-top: 50px;*/
 
 }
 
@@ -252,8 +252,8 @@ span {
 .boks2 {
     background-color: #BEE0D9;
     width: 100%;
-    height: 525px;
-    margin-top: 50px;
+    height: 550px;
+    /*    margin-top: 50px;*/
 
 }
 
@@ -308,12 +308,11 @@ span {
 
 
 
-.
-/*tuborgsixpack img {
+. tuborgsixpack img {
     margin-top: 50px;
     padding: 15px;
 }
-*/
+
 
 
 
@@ -328,14 +327,27 @@ span {
 
 /* INFOGRAFIK */
 
-h2 {
+
+.infografik h3 {
     text-align: center;
 }
 
+
+
+
 .infografik h1 {
     text-align: center;
+    color: #093A82;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.infografik h2 {
+    text-align: center;
     color: #FAC177;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 
 }
 
@@ -355,19 +367,19 @@ h2 {
 .blaaboks {
     display: flex;
     background-color: #093A82;
-    height: 300px;
+    height: 400px;
 
 }
 
 .blaaboks img {
     width: 100%;
-    margin-top: 15px;
+
 }
 
 .blaaboks p {
     font-size: 0.8rem;
     color: white;
-    margin-top: 30px;
+    padding-top: 50px;
 }
 
 .tekstvenstre {
@@ -386,10 +398,12 @@ h2 {
 
 /* KONKURRENCE */
 
+
+
 .konkurrence h2 {
     text-align: center;
     color: #093A82;
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -402,12 +416,14 @@ h2 {
     font-style: italic;
     color: #093A82;
 
+
 }
 
 .orangeboks {
     border: solid #FAC177;
-    height: 220px;
+    height: 250px;
 
+    position: relative;
 }
 
 .daaser {
@@ -415,25 +431,27 @@ h2 {
 
     padding-left: 20px;
     padding-right: 20px;
+    position: relative;
 }
 
 .daase img {
-    margin-top: 40px;
+    padding-top: 20px;
     width: 80%;
 }
 
 .knap {
     display: flex;
-    margin-top: 20px;
+    padding-top: 10px;
     justify-content: space-around;
     /* padding-left: 90px;
     padding-right: 90px;*/
+    position: relative;
 
 }
 
 button {
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open sans', sans-serif;
     font-size: 1.2rem;
     color: #093A82;
     background-color: #BEE0D9;
@@ -458,7 +476,7 @@ button:hover {
 .beskrivelse h2 {
     text-align: center;
     color: #093A82;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -481,9 +499,10 @@ button:hover {
 .beskrivelse p {
     text-align: center;
     color: gray;
-    font-size: 0.8rem;
-    font-family: 'Raleway', sans-serif;
-    line-height: 16px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    font-weight: 400;
 
 
 }
@@ -495,7 +514,7 @@ button:hover {
 
 .link a {
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open sans', sans-serif;
     font-size: 1.2rem;
     color: #093A82;
     background-color: #BEE0D9;
@@ -525,14 +544,15 @@ button:hover {
     color: #093A82;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
 }
 
 .graaboks p {
     text-align: center;
     color: #093A82;
-    font-size: 0.7rem;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
 }
-
 
 
 input[type=text],
@@ -544,6 +564,9 @@ select {
     border: 1px solid #FAC177;
     border-radius: 40px;
     box-sizing: border-box;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 500;
+
 }
 
 input[type=submit] {
@@ -560,12 +583,13 @@ input[type=submit] {
 }
 
 .nyhedsbrev .knap {
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
 input[type=submit]:hover {
     opacity: 80%;
 }
+
 
 
 
@@ -637,18 +661,18 @@ footer {
 
     .headline p {
         font-size: 2rem;
-        margin-top: -120px;
+        /*    padding-top: -120px;*/
     }
 
     .headline2 p {
         font-size: 2rem;
         text-align: end;
-        margin-top: 8vw;
+        /*     padding-top: 8vw;*/
     }
 
     .headline2 h1 {
         font-size: 4rem;
-        margin-top: -4vw;
+        /*        margin-top: -4vw;*/
         text-align: end;
         padding-right: 55px;
     }
@@ -656,7 +680,7 @@ footer {
     .beer img {
         width: 20%;
         margin: 6vw;
-        margin-top: -36vw;
+        /*margin-top: -36vw;*/
 
     }
 
@@ -670,7 +694,7 @@ footer {
     .undercitat p {
         font-size: 2.5rem;
         text-align: center;
-        margin-top: -70px;
+        /*     margin-top: -70px;*/
         font-style: italic;
 
 
@@ -692,6 +716,8 @@ footer {
         height: 40vw;
 
     }
+
+
 }
 
 
