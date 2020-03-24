@@ -187,7 +187,7 @@ span {
 .boks {
     background-color: #FAC177;
     width: 100%;
-    height: 600px;
+    height: 625px;
     /*    margin-top: 50px;*/
 
 }
@@ -213,7 +213,6 @@ span {
     display: flex;
     justify-content: space-between;
 
-    font-size: 1rem;
 
 }
 
@@ -223,6 +222,7 @@ span {
     display: inline-block;
     /*  padding: 0px 10px 0px 10px;*/
     color: #093A82;
+    font-size: 1.2rem;
 
 }
 
@@ -272,10 +272,8 @@ span {
 .boks2 {
     background-color: #BEE0D9;
     width: 100%;
-    height: 550px;
+    height: 525px;
     /*    margin-top: 50px;*/
-
-
 }
 
 
@@ -290,7 +288,6 @@ span {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
-    font-size: 1rem;
 
 
 
@@ -302,21 +299,26 @@ span {
     display: inline-block;
     padding: 20px 20px 0px 20px;
     color: white;
+    line-height: 20px;
+    font-size: 1.2rem;
 
 
 }
 
-.boks2 h2 {
+.forslag h2 {
     text-align: center;
     color: white;
     font-weight: 500;
+    font-size: 1.6rem;
 }
 
-.boks2 p {
+.forslag p {
     text-align: center;
     color: white;
-
+    font-size: 1rem;
 }
+
+
 
 
 .link2 {
