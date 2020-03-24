@@ -217,7 +217,51 @@ span {
     padding: 15px;
 }
 
+.boks p {
+    text-transform: uppercase;
+    color: #093A82;
 
+}
+
+.lilletekst p {
+    font-size: 0.8rem;
+    display: inline-block;
+    align-content: space-between;
+}
+
+.slidecontainer {
+    width: 100%;
+    /* Width of the outside container */
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 1px;
+    /* border-radius: 5px;*/
+    background-color: #093A82;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #093A82;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
 
 /* SMAG SLUT */
 
