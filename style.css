@@ -277,11 +277,19 @@ span {
 }
 
 
+.boks2 hr {
+    border: 1px solid white;
+
+
+}
+
 
 .info {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
+
+
 
 }
 
@@ -293,6 +301,7 @@ span {
     color: white;
     line-height: 20px;
     font-size: 1.2rem;
+
 
 }
 
@@ -307,7 +316,6 @@ span {
     text-align: center;
     color: white;
     font-size: 1rem;
-
 }
 
 
@@ -448,7 +456,7 @@ span {
 
 .orangeboks {
     border: solid #FAC177;
-    height: 250px;
+    height: 200px;
 
     position: relative;
 }
@@ -628,7 +636,7 @@ input[type=submit]:hover {
 
 footer {
     background-color: #9C9E9F;
-    height: 150px;
+    height: 80px;
 }
 
 
