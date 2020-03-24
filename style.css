@@ -275,8 +275,15 @@ span {
     height: 550px;
     /*    margin-top: 50px;*/
 
+
 }
 
+
+.boks2 hr {
+    border: 1px solid white;
+
+
+}
 
 
 .info {
@@ -284,6 +291,8 @@ span {
     justify-content: space-between;
     padding: 0 20px;
     font-size: 1rem;
+
+
 
 }
 
@@ -293,6 +302,7 @@ span {
     display: inline-block;
     padding: 20px 20px 0px 20px;
     color: white;
+
 
 }
 
@@ -305,6 +315,7 @@ span {
 .boks2 p {
     text-align: center;
     color: white;
+
 }
 
 
@@ -443,7 +454,7 @@ span {
 
 .orangeboks {
     border: solid #FAC177;
-    height: 250px;
+    height: 200px;
 
     position: relative;
 }
@@ -623,7 +634,7 @@ input[type=submit]:hover {
 
 footer {
     background-color: #9C9E9F;
-    height: 150px;
+    height: 80px;
 }
 
 
