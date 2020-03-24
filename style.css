@@ -9,8 +9,8 @@ body {
     background-attachment: fixed;
     width: 100%;
     background-color: #FCF3EB;
-
 }
+
 
 
 img {
@@ -177,7 +177,7 @@ span {
     color: #093A82;
 }
 
-/* KONKURRENCE */
+/* SMAG */
 .boks {
     background-color: #FAC177;
     width: 100%;
@@ -196,15 +196,6 @@ span {
 
 }
 
-.boks p {
-    font-size: 1rem;
-    text-align: center;
-    margin: 70px;
-    margin-top: -15px;
-    font-style: italic;
-    color: #093A82;
-
-}
 
 .boks2 {
     background-color: #BEE0D9;
@@ -221,6 +212,90 @@ span {
 
 
 
+/* SMAG SLUT */
+
+
+/* INFOGRAFIK */
+
+.infografik h2 {
+    text-align: center;
+    color: #093A82;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+
+}
+
+.infografik h1 {
+    text-align: center;
+    color: #FAC177;
+    font-size: 2.5rem;
+}
+
+.infografik p {
+    text-align: center;
+    color: #093A82;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+
+/* INFOGRAFIK SLUT */
+
+/* BLAA BOKS */
+
+.blaaboks {
+    display: flex;
+    background-color: #093A82;
+    height: 400px;
+
+}
+
+.blaaboks img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.blaaboks p {
+    color: white;
+    margin-top: 70px;
+}
+
+.tekstvenstre {
+    margin-right: 30px;
+}
+
+.teksthoejre {
+    margin-left: 30px;
+}
+
+
+
+/* BLAA BOKS SLUT */
+
+
+/* KONKURRENCE */
+
+.konkurrence h2 {
+    text-align: center;
+    color: #093A82;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+
+.konkurrence p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 70px;
+    margin-top: -15px;
+    font-style: italic;
+    color: #093A82;
+
+}
+
+
+
 /* KONKURRENCE SLUT */
 
 
@@ -229,7 +304,7 @@ span {
 .beskrivelse h2 {
     text-align: center;
     color: #093A82;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
 
 }
@@ -378,18 +453,8 @@ span {
 
     }
 
-    /*
 
-    .konkurrence {
-        display: flex;
-        flex-wrap: wrap;
-
-    }
-*/
-
-
-
-    .konkurrence img {
+    .smag img {
         width: 50%;
     }
 
