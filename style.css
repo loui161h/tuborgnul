@@ -120,35 +120,34 @@ span {
     text-align: center;
     color: #093A82;
     font-size: 4rem;
-    margin-top: 2rem;
+    font-family: 'Oswald', sans-serif;
+
 
 }
 
 .headline p {
     text-align: center;
     color: #093A82;
-    font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 
 }
 
 .headline2 p {
     text-align: center;
     color: #093A82;
-    font-style: italic;
     font-size: 1.5rem;
-    margin: 3rem;
-    margin-top: -10px;
+    font-family: 'Oswald', sans-serif;
 
 }
 
 .headline2 h1 {
     text-align: center;
-    font-style: italic;
-    font-weight: 100;
     color: #FAC177;
     font-size: 3rem;
-    margin-top: -6vw;
+    font-family: 'Oswald', sans-serif;
 
 
 }
@@ -169,17 +168,19 @@ span {
     text-align: center;
     color: #FAC177;
     font-size: 1.5rem;
-    font-weight: 100;
-    margin: 45px;
+    margin: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .undercitat p {
     font-size: 1rem;
     text-align: center;
-    margin: 40px;
-    margin-top: -15px;
+    margin: 50px 40px 0px 40px;
     font-style: italic;
     color: #093A82;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 /* SMAG */
@@ -195,10 +196,9 @@ span {
     font-size: 2rem;
     color: #093A82;
     text-align: center;
-    padding-top: 35px;
     text-transform: uppercase;
-
-
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -227,6 +227,8 @@ span {
     color: #093A82;
     font-size: 1.6rem;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
 
 }
 
@@ -234,6 +236,7 @@ span {
     text-align: center;
     color: #FAC177;
     font-size: 2.5rem;
+
 }
 
 .infografik p {
@@ -288,6 +291,8 @@ span {
     color: #093A82;
     font-size: 1.6rem;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }
 
 
@@ -355,6 +360,8 @@ button:hover {
     color: #093A82;
     font-size: 1.5rem;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 
 }
 
@@ -410,7 +417,7 @@ button:hover {
 
 .graaboks {
     background-color: #F8F8F8;
-    height: 350px;
+    height: 400px;
 }
 
 .graaboks h2 {
