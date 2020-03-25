@@ -166,21 +166,19 @@ span {
 
 .citat h2 {
     text-align: center;
-    color: #FAC177;
+    color: #093A82;
     font-size: 1.5rem;
-    margin: 35px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
-.undercitat p {
+.pilsner h2 {
     font-size: 1rem;
     text-align: center;
-    margin: 50px 40px 0px 40px;
-    font-style: italic;
     color: #093A82;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    padding: 0px 80px 0px 80px;
 }
 
 /* SMAG */
@@ -200,19 +198,191 @@ span {
 
 }
 
-.boks {
-    background-color: #FAC177;
-    width: 100%;
-    height: 625px;
-    /*    margin-top: 50px;*/
 
+/* SMAG SLUT */
+
+
+/* TYPE */
+
+.boks2 {
+    background-color: #BEE0D9;
+    width: 100%;
+    height: 600px;
+    /*    margin-top: 50px;*/
+}
+
+
+.boks2 hr {
+    border: 1px solid white;
+    margin: 0px 40px 0px 40px;
+
+
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+
+
+}
+
+.info p {
+    font-family: Avenir;
+    line-height: 22px;
+    display: inline-block;
+    padding: 20px 20px 0px 20px;
+    color: white;
+    line-height: 20px;
+    font-size: 1.2rem;
+
+}
+
+.forslag h2 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.forslag p {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+
+.link2 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link2 a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    border: solid #FAC177;
+    padding: 14px 20px;
+    border-radius: 40px;
+
+}
+
+.link a:hover {
+    opacity: 50%;
 }
 
 
 
 
 
-.boks h2 {
+/* TYPE SLUT */
+
+
+/* INFOGRAFIK */
+
+
+.grafik h1 {
+    text-align: center;
+    color: #093A82;
+    font-size: 3.5rem;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0vw;
+    font-weight: 400;
+
+}
+
+
+
+.infografik h1 {
+    text-align: center;
+    color: #093A82;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.infografik h2 {
+    text-align: center;
+    color: #FAC177;
+    font-size: 2.8rem;
+
+}
+
+.infografik p {
+    text-align: center;
+    color: #093A82;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+/* INFOGRAFIK SLUT */
+
+/* BLAA BOKS */
+
+.blaaboks {
+    display: flex;
+    background-color: #093A82;
+    height: 400px;
+
+}
+
+.blaaboks img {
+    width: 100%;
+
+}
+
+.blaaboks p {
+    font-size: 0.8rem;
+    color: white;
+    padding-top: 50px;
+}
+
+.tekstvenstre {
+    margin-right: 17px;
+}
+
+.teksthoejre {
+    margin-left: 17px;
+}
+
+
+/* BLAA BOKS SLUT */
+
+
+/* KONKURRENCE */
+
+.orangeboks {
+    border: solid #FAC177;
+    height: 1200px;
+}
+
+.orangeboks h1 {
+    text-align: center;
+    color: #093A82;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.orangeboks p {
+    font-size: 1rem;
+    text-align: center;
+    color: #093A82;
+}
+
+
+
+.orangeboks h2 {
     font-size: 2rem;
     color: #093A82;
     text-align: center;
@@ -223,7 +393,7 @@ span {
 
 
 
-.boks h3 {
+.orangeboks h3 {
     text-transform: uppercase;
     color: #093A82;
     font-size: 1.2rem;
@@ -284,219 +454,18 @@ span {
 
 
 
-/* SMAG SLUT */
-
-
-/* TYPE */
-
-.boks2 {
-    background-color: #BEE0D9;
-    width: 100%;
-    height: 600px;
-    /*    margin-top: 50px;*/
-}
-
-
-.boks2 hr {
-    border: 1px solid white;
-    margin: 0px 40px 0px 40px;
-
-
-}
-
-
-.info {
+.daase {
     display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-
-
-
+    justify-content: space-around;
 }
 
-.info p {
-    font-family: Avenir;
-    line-height: 22px;
-    display: inline-block;
-    padding: 20px 20px 0px 20px;
-    color: white;
-    line-height: 20px;
-    font-size: 1.2rem;
-
-
-}
-
-.forslag h2 {
-    text-align: center;
-    color: white;
-    font-weight: 500;
-    font-size: 1.6rem;
-}
-
-.forslag p {
-    text-align: center;
-    color: white;
-    font-size: 1rem;
-}
-
-
-
-
-.link2 {
-    padding-top: 20px;
-    text-align: center;
-}
-
-.link2 a {
-    text-decoration: none;
-    font-size: 1rem;
-    color: white;
-    border: solid #FAC177;
-    padding: 14px 20px;
-    border-radius: 40px;
-
-}
-
-.link a:hover {
-    opacity: 50%;
-}
-
-
-
-
-. tuborgsixpack img {
-    margin-top: 50px;
-    padding: 15px;
-}
-
-
-
-
-/* TYPE SLUT */
-
-
-
-
-
-
-
-
-/* INFOGRAFIK */
-
-
-.infografik h3 {
-    text-align: center;
-}
-
-
-
-
-.infografik h1 {
-    text-align: center;
-    color: #093A82;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-}
-
-.infografik h2 {
-    text-align: center;
-    color: #FAC177;
-    font-size: 2.8rem;
-
-}
-
-.infografik p {
-    text-align: center;
-    color: #093A82;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-
-
-/* INFOGRAFIK SLUT */
-
-/* BLAA BOKS */
-
-.blaaboks {
-    display: flex;
-    background-color: #093A82;
-    height: 400px;
-
-}
-
-.blaaboks img {
-    width: 100%;
-
-}
-
-.blaaboks p {
-    font-size: 0.8rem;
-    color: white;
-    padding-top: 50px;
-}
-
-.tekstvenstre {
-    margin-right: 17px;
-}
-
-.teksthoejre {
-    margin-left: 17px;
-}
-
-
-
-
-/* BLAA BOKS SLUT */
-
-
-/* KONKURRENCE */
-
-
-
-.konkurrence h2 {
-    text-align: center;
-    color: #093A82;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-}
-
-
-.konkurrence p {
-    font-size: 1rem;
-    text-align: center;
-    font-style: italic;
-    color: #093A82;
-
-
-}
-
-.orangeboks {
-    border: solid #FAC177;
-    height: 200px;
-    position: relative;
-}
-
-.daaser {
-    display: flex;
-
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
-}
 
 .daase img {
-    padding-top: 20px;
-    width: 80%;
+    width: 70%;
 }
 
 .knap {
     display: flex;
-    padding-top: 10px;
     justify-content: space-around;
     /* padding-left: 90px;
     padding-right: 90px;*/
@@ -752,17 +721,16 @@ footer {
     /* CITAT */
 
     .citat h2 {
-        font-size: 3rem;
-        color: white;
-        /* margin: 135px;*/
-
+        font-size: 3.5rem;
+        font-weight: 500;
+        font-style: italic;
+        padding: 0px 300px 0px 300px;
     }
 
-    .undercitat p {
+    .pilsner h2 {
         font-size: 2rem;
         text-align: center;
-        /*     margin-top: -70px;*/
-        font-style: italic;
+
 
     }
 
@@ -772,23 +740,30 @@ footer {
 
     /* SMAG BLAA BOKS */
 
-    .smag {
+    .sectionwrapper_smag {
         display: flex;
         flex-wrap: wrap;
 
+    }
+
+    .smag {
+        flex-grow: 1;
+        flex-basis: 400px;
 
     }
 
 
-    .smag img {
-        width: 50%;
+    .bil img {
+        width: 100%;
     }
 
 
 
     .boks2 {
-        width: 50%;
-        height: 34vw;
+        width: 60%;
+        height: 100%;
+
+
 
     }
 
@@ -797,6 +772,29 @@ footer {
 
     /* INFOGRAFIK */
 
+    .sectionwrapper_infografik {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .infografik {
+        flex-grow: 3;
+        flex-basis: 300px;
+    }
+
+
+    .infografik h2 {
+        font-size: 6rem;
+        margin-bottom: 0vw;
+    }
+
+
+    .infografik p {
+        font-size: 1.2rem;
+    }
+
+
 
 
     /* INFOGRAFIK SLUT */
@@ -804,9 +802,46 @@ footer {
     /* BLAA BOKS */
 
 
+    .blaaboks {
+        display: flex;
+        background-color: #093A82;
+        opacity: 80%;
+        height: 500px;
+
+    }
+
+    .blaaboks img {
+        width: 70%;
+
+    }
+
+    .blaaboks p {
+        font-size: 1.2rem;
+
+    }
+
+    .tekstvenstre {
+        padding-top: 30px;
+        padding-left: 180px;
+
+    }
+
+    .teksthoejre {
+        padding-top: 30px;
+        padding-right: 180px;
+
+    }
+
 
 
     /* BLAA BOKS SLUT */
+
+
+    /* KONKURRENCE */
+
+
+
+    /* KONKURRENCE SLUT */
 
 
 }
