@@ -725,7 +725,7 @@ footer {
 
 @media only screen and (min-width: 800px) {
     body {
-        background-image: url(baggrundsbilleder/baggrund_opa.png);
+        background-image: url(baggrundsbilleder/baggrund2.png);
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1036,7 +1036,6 @@ footer {
 
     .graaboks p {
         font-size: 1.3rem;
-        /* padding: 0px 400px 0px 400px;*/
     }
 
     .nyhedsbrev {
