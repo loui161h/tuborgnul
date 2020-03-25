@@ -295,8 +295,9 @@
 
     <div class="sectionwrapper">
         <div class="graaboks padding">
-
-            <h2>Nyhedsbrev</h2>
+            <div class="overskrift">
+                <h1>Nyhedsbrev</h1>
+            </div>
             <p>Tilmeld dig nedenstående formular og bliv opdateret på fremtidige konkurrencer og nyheder.</p>
 
 
@@ -320,6 +321,8 @@
 
 
     <footer>
+        <div onclick="topFunction()" id="myBtn" title="Go to top"><img src="ikoner/pilop.svg" alt="pilop"></div>
+
 
 
     </footer>
@@ -332,6 +335,29 @@
 
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
+        }
+
+
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
     </script>
 

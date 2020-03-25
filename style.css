@@ -514,9 +514,8 @@ button:hover {
 }
 
 .beskrivelse h3 {
-    text-align: center;
     color: #093A82;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 100;
     font-style: italic;
 
@@ -543,8 +542,10 @@ button:hover {
     font-size: 1.2rem;
     color: #093A82;
     background-color: #BEE0D9;
-    padding: 14px 60px;
+
     border-radius: 40px;
+    width: 300px;
+    padding: 14px;
 
 }
 
@@ -561,7 +562,7 @@ button:hover {
 
 .graaboks {
     background-color: #F8F8F8;
-    height: 400px;
+    height: 450px;
 }
 
 .graaboks h2 {
@@ -626,9 +627,19 @@ input[type=submit]:hover {
 
 footer {
     background-color: #9C9E9F;
-    height: 80px;
+    height: 150px;
 }
 
+#myBtn img {
+    width: 88px;
+    height: 88px;
+    cursor: pointer;
+    position: fixed;
+    margin: 2vw;
+    right: 0;
+    bottom: 0;
+
+}
 
 
 /* FOOTER SLUT */
@@ -899,29 +910,69 @@ footer {
     }
 
 
+    .beskrivelse h3 {
+        font-size: 1.4rem;
+
+    }
+
+    .beskrivelse p {
+        font-size: 1.2rem;
+
+    }
+
+
+    /* NYHEDSBREV */
+
+    .graaboks {
+        height: 500px;
+    }
+
+    .graaboks p {
+        font-size: 1.3rem;
+        padding: 0px 400px 0px 400px;
+    }
+
+    .nyhedsbrev {
+        display: flex;
+        justify-content: space-around;
+    }
 
     input[type=text],
     select {
-        width: 40%;
-        padding: 20px 20px;
-        margin: 8px 0;
-        display: flex;
-        font-size: 0.8rem;
+        display: block;
+        width: 600px;
+        padding: 14px;
+
+        font-size: 1rem;
 
     }
 
     input[type=submit] {
-        width: 30%;
-        padding: 16px;
+        width: 300px;
+        padding: 14px;
+
     }
-
-
-
-
 
 
     /* BESKRIVELSE SLUT */
 
+
+    /* FOOTER */
+
+    footer {
+        height: 200px;
+    }
+
+    #myBtn img {
+        width: 66px;
+        height: 66px;
+        margin: 3vw;
+
+    }
+
+
+
+    /* FOOTER SLUT */
 
 
 
