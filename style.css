@@ -32,7 +32,7 @@ img {
 .logo img {
     width: 66px;
     height: 66px;
-    margin: 2vw;
+    margin: 4vw;
 
 }
 
@@ -40,7 +40,7 @@ img {
 .navlogo img {
     width: 66px;
     height: 66px;
-    margin: 2vw;
+    margin: 4vw;
     top: 5px;
     position: absolute;
 }
@@ -121,7 +121,7 @@ span {
     color: #093A82;
     font-size: 4rem;
     font-family: 'Oswald', sans-serif;
-
+    margin-bottom: 0;
 
 }
 
@@ -141,7 +141,8 @@ span {
     color: #093A82;
     font-size: 1.5rem;
     font-family: 'Oswald', sans-serif;
-
+    margin-bottom: 0;
+    margin-top: 80px;
 
 }
 
@@ -150,7 +151,7 @@ span {
     color: #FAC177;
     font-size: 3rem;
     font-family: 'Oswald', sans-serif;
-
+    margin-top: 0;
 
 }
 
@@ -193,12 +194,6 @@ span {
 
 }
 
-.smag {
-    flex-grow: 3;
-    flex-basis: 400px;
-
-
-}
 
 
 /* SMAG SLUT */
@@ -208,9 +203,8 @@ span {
 
 .boks2 {
     background-color: #BEE0D9;
-    width: 100%;
-    height: 600px;
-    /*    margin-top: 50px;*/
+    height: 590px;
+    margin-top: 20px;
 }
 
 
@@ -226,20 +220,13 @@ span {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
-
-
-
 }
 
 .info p {
-    font-family: Avenir;
-    line-height: 22px;
     display: inline-block;
-    padding: 20px 20px 0px 20px;
+    padding: 30px 20px 0px 20px;
     color: white;
     line-height: 20px;
-    font-size: 1.2rem;
-
 }
 
 .forslag h2 {
@@ -247,12 +234,15 @@ span {
     color: white;
     font-weight: 500;
     font-size: 1.6rem;
+    font-weight: 600;
 }
 
 .forslag p {
     text-align: center;
     color: white;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    padding: 0px 40px;
+    font-style: italic;
 }
 
 
@@ -268,9 +258,9 @@ span {
     font-size: 1rem;
     color: white;
     border: solid #FAC177;
-    padding: 14px 40px;
+    padding: 14px 10px;
     border-radius: 40px;
-
+    font-weight: 700;
 }
 
 .link a:hover {
@@ -312,14 +302,13 @@ span {
     text-align: center;
     color: #FAC177;
     font-size: 2.8rem;
-
+    margin: 0;
 }
 
 .infografik p {
     text-align: center;
     color: #093A82;
-    padding-left: 50px;
-    padding-right: 50px;
+    font-size: 1.2rem;
 }
 
 
@@ -331,19 +320,18 @@ span {
 .blaaboks {
     display: flex;
     background-color: #093A82;
-    height: 400px;
+    height: 300px;
 
 }
 
 .blaaboks img {
     width: 100%;
-
 }
 
 .blaaboks p {
     font-size: 0.8rem;
     color: white;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .tekstvenstre {
@@ -398,7 +386,6 @@ span {
 }
 
 .slidebar p {
-    font-family: Avenir;
     line-height: 22px;
     display: inline-block;
     /*  padding: 0px 10px 0px 10px;*/
@@ -473,7 +460,8 @@ button {
     padding: 14px 70px;
     border-radius: 40px;
     cursor: pointer;
-
+    font-weight: 600;
+    border: none;
 }
 
 
@@ -531,10 +519,10 @@ button:hover {
     font-size: 1.2rem;
     color: #093A82;
     background-color: #BEE0D9;
-
+    font-weight: 600;
     border-radius: 40px;
     width: 300px;
-    padding: 14px;
+    padding: 14px 50px;
 
 }
 
@@ -576,7 +564,7 @@ select {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #FAC177;
+    border: 2px solid #FAC177;
     border-radius: 40px;
     box-sizing: border-box;
     font-family: 'Open sans', sans-serif;
@@ -586,15 +574,14 @@ select {
 
 input[type=submit] {
     justify-content: space-around;
-    width: 60%;
     background-color: #BEE0D9;
     font-size: 1.2rem;
     color: #093A82;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 15px 80px;
     border: none;
     border-radius: 40px;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .nyhedsbrev .knap {
@@ -652,31 +639,15 @@ footer {
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
-
-
     }
 
     /* HEADER */
-
-    .logo img {
-        width: 99px;
-        height: 99px;
-
-    }
-
-    .navlogo img {
-        width: 99px;
-        height: 99px;
-
-    }
 
 
     span {
         width: 66px;
         height: 66px;
         margin: 3vw;
-
-
     }
 
     .sidenav .closebtn {
@@ -697,10 +668,7 @@ footer {
 
 
     .overskrift h1 {
-
         font-size: 3.5rem;
-
-
     }
 
 
@@ -709,24 +677,27 @@ footer {
     .headline h1 {
         font-size: 10rem;
         color: white;
-        margin-top: 10px;
+        margin-top: -18px;
     }
 
     .headline p {
         font-size: 2rem;
+        margin-top: -1.5vw;
+        margin-bottom: 10vw;
     }
 
     .headline2 p {
         font-size: 2rem;
         text-align: end;
+        padding-right: 2vw;
 
-        /*padding-top: 8vw;*/
     }
 
     .headline2 h1 {
-        font-size: 4rem;
-        margin-top: -2vw;
+        font-size: 6rem;
+        margin-top: -1.5vw;
         text-align: end;
+        padding-right: 2vw;
         /* padding-right: 55px;*/
     }
 
@@ -735,7 +706,7 @@ footer {
     }
 
     .beer img {
-        width: 20%;
+        width: 15%;
         margin-top: -45vw;
     }
 
@@ -747,6 +718,7 @@ footer {
         font-weight: 500;
         font-style: italic;
         padding: 0px 300px 0px 300px;
+        margin-top: -5vw;
     }
 
     .pilsner h2 {
@@ -756,6 +728,19 @@ footer {
 
     }
 
+    .boks2 {
+        margin-top: 80px;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        font-size: 1.2rem;
+
+    }
+
+
 
     /* CITAT  SLUT */
 
@@ -763,16 +748,13 @@ footer {
     /* SMAG BLAA BOKS */
 
     .sectionwrapper_smag {
-        display: flex;
-        flex-wrap: wrap;
-
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: dense;
+        margin: 0px 100px;
     }
 
-    .smag {
-        flex-grow: 1;
-        flex-basis: 400px;
 
-    }
 
 
     .bil img {
@@ -782,13 +764,38 @@ footer {
 
 
     .boks2 {
-        width: 60%;
-        height: 100%;
+        height: 47vw;
+    }
 
 
+    .info p {
+        display: inline-block;
+        padding: 30px 20px 0px 20px;
+        color: white;
+        line-height: 30px;
+        font-size: 1.4rem;
+    }
+
+    .link2 a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: white;
+        border: solid #FAC177;
+        padding: 14px 50px;
+        border-radius: 40px;
+        font-weight: 700;
+    }
+
+    .forslag p {
+
+        font-size: 1.2rem;
+        padding: 0px 50px;
 
     }
 
+    .forslag h2 {
+        margin-top: 4vw;
+    }
 
     /* SMAG BLAA BOKS SLUT */
 
@@ -809,12 +816,18 @@ footer {
     .infografik h2 {
         font-size: 6rem;
         margin-bottom: 0vw;
+        margin-top: 2vw;
     }
 
 
     .infografik p {
         font-size: 1.2rem;
+        text-align: center;
+        color: #093A82;
+        padding-left: 50px;
+        padding-right: 50px;
     }
+
 
 
 
@@ -828,28 +841,28 @@ footer {
         display: flex;
         background-color: #093A82;
         opacity: 80%;
-        height: 500px;
+        height: 620px;
 
     }
 
     .blaaboks img {
-        width: 70%;
-
+        width: 100%;
     }
 
     .blaaboks p {
-        font-size: 1.2rem;
-
+        font-size: 1.4rem;
+        padding-top: 80px;
+        margin: 30px;
     }
 
     .tekstvenstre {
-        padding-top: 30px;
+        padding-top: 0px;
         padding-left: 180px;
 
     }
 
     .teksthoejre {
-        padding-top: 30px;
+        padding-top: 60px;
         padding-right: 180px;
 
     }
@@ -938,12 +951,12 @@ footer {
 
     .beskrivelse h3 {
         font-size: 1.4rem;
-
+        margin-left: 40px;
     }
 
     .beskrivelse p {
         font-size: 1.2rem;
-
+        margin-left: 40px;
     }
 
 
@@ -966,18 +979,11 @@ footer {
     input[type=text],
     select {
         display: block;
-        width: 600px;
-        padding: 14px;
-
+        width: 650px;
+        padding: 14px 30px;
         font-size: 1rem;
-
     }
 
-    input[type=submit] {
-        width: 300px;
-        padding: 14px;
-
-    }
 
 
     /* BESKRIVELSE SLUT */
