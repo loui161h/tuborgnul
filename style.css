@@ -83,8 +83,7 @@ span {
     transition: 0.3s;
     text-transform: uppercase;
     text-align: center;
-    line-height: 6rem;
-
+    line-height: 4rem;
 }
 
 .sidenav a:hover {
