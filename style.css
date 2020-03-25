@@ -858,12 +858,34 @@ footer {
 
     }
 
-
-
-
-
-
     /* KONKURRENCE SLUT */
+
+
+    /* BESKRIVELSE */
+
+    .sectionwrapper_video {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .beskrivelse {
+        flex-grow: 1;
+        flex-basis: 400px;
+    }
+
+    .beskrivelse img {
+        width: ;
+    }
+
+
+
+
+
+
+    /* BESKRIVELSE SLUT */
+
+
 
 
 }
