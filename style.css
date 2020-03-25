@@ -633,12 +633,120 @@ footer {
 
 /* MEDIA QUERIES */
 
+/* IPAD */
+
+@media only screen and (min-width: 500px) {
+
+    .blaaboks {
+        height: 400px;
+    }
+
+
+    .orangeboks {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1200px;
+
+    }
+
+    .orangeboks h2 {
+        font-size: 1.8rem;
+    }
+
+
+    .orangeboks p {
+        font-size: 1.5rem;
+
+
+    }
+
+    .orangeboks h3 {
+        font-size: 1.5rem;
+    }
+
+
+
+    .konkurrence {
+        flex-grow: 1;
+        flex-basis: 300px;
+    }
+
+    .daase img {
+        width: 40%;
+    }
+
+}
+
+
+@media only screen and (min-width: 630px) {
+
+    /* .daase img {
+        width: 50%;
+    }*/
+
+
+}
+
+
+@media only screen and (min-width: 670px) {
+
+    .blaaboks img {
+        width: 60%;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 700px) {
+
+    .blaaboks img {
+        width: 60%;
+    }
+
+    .orangeboks {
+        height: 950px;
+    }
+
+    .sectionwrapper_boks {
+        padding: 30px;
+    }
+
+
+
+    .daase img {
+        width: 65%;
+        margin-top: 200px;
+
+    }
+
+    .tekstvenstre {
+        margin-right: 17px;
+        margin-top: 30px;
+    }
+
+    .teksthoejre {
+        margin-right: 17px;
+        margin-top: 30px;
+    }
+
+
+
+
+
+}
+
+
 @media only screen and (min-width: 800px) {
     body {
         background-image: url(baggrundsbilleder/baggrund_opa.png);
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    .padding {
+        padding: 10px 10px;
     }
 
     /* HEADER */
@@ -677,7 +785,7 @@ footer {
     .headline h1 {
         font-size: 10rem;
         color: white;
-        margin-top: -18px;
+        margin-top: -40px;
     }
 
     .headline p {
@@ -717,7 +825,7 @@ footer {
         font-size: 3.5rem;
         font-weight: 500;
         font-style: italic;
-        padding: 0px 300px 0px 300px;
+        padding: 0px 0px 0px 0px;
         margin-top: -5vw;
     }
 
@@ -751,7 +859,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-flow: dense;
-        margin: 0px 100px;
+        margin: 0px 0px;
     }
 
 
@@ -764,7 +872,7 @@ footer {
 
 
     .boks2 {
-        height: 47vw;
+        height: 650px;
     }
 
 
@@ -773,7 +881,7 @@ footer {
         padding: 30px 20px 0px 20px;
         color: white;
         line-height: 30px;
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     .link2 a {
@@ -841,29 +949,30 @@ footer {
         display: flex;
         background-color: #093A82;
         opacity: 80%;
-        height: 620px;
+        height: 400px;
 
     }
 
     .blaaboks img {
-        width: 100%;
+        width: 80%;
+        margin-top: 20px;
     }
 
     .blaaboks p {
-        font-size: 1.4rem;
-        padding-top: 80px;
-        margin: 30px;
+        font-size: 1rem;
+        /*  padding-top: 80px;
+        margin: 30px;*/
     }
 
     .tekstvenstre {
-        padding-top: 0px;
-        padding-left: 180px;
+        padding-top: 20px;
+        padding-left: 100px;
 
     }
 
     .teksthoejre {
-        padding-top: 60px;
-        padding-right: 180px;
+        padding-top: 20px;
+        padding-right: 100px;
 
     }
 
@@ -875,13 +984,13 @@ footer {
     /* KONKURRENCE */
 
     .orangeboks {
-        display: flex;
-        flex-wrap: wrap;
+        /*  display: flex;
+        flex-wrap: wrap;*/
         height: 900px;
 
     }
 
-    .orangeboks h2 {
+    /*    .orangeboks h2 {
         font-size: 1.8rem;
     }
 
@@ -902,13 +1011,11 @@ footer {
     .konkurrence {
         flex-grow: 1;
         flex-basis: 400px;
-    }
+    }*/
 
     .daase img {
         width: 50%;
         margin-top: 80px;
-
-
     }
 
 
@@ -968,7 +1075,7 @@ footer {
 
     .graaboks p {
         font-size: 1.3rem;
-        padding: 0px 400px 0px 400px;
+        /* padding: 0px 400px 0px 400px;*/
     }
 
     .nyhedsbrev {
@@ -1019,7 +1126,112 @@ footer {
 
 }
 
+
+@media only screen and (min-width: 820px) {
+
+    .padding {
+        padding: 20px 20px;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+
+    .blaaboks img {
+        width: 60%;
+        margin-top: 0px;
+    }
+
+    .daase img {
+        width: 60%;
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .blaaboks img {
+        width: 60%;
+        margin-top: 0px;
+    }
+
+    .tekstvenstre {
+        padding-top: 60px;
+        padding-left: 100px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+    .citat h2 {
+
+        padding: 0px 230px 0px 230px;
+
+    }
+
+    .blaaboks p {
+        font-size: 1.2rem;
+        padding-top: 30px;
+    }
+
+    .blaaboks img {
+        width: 55%;
+    }
+
+    .padding {
+        padding: 30px 30px;
+    }
+
+
+    .sectionwrapper_boks {
+        padding: 80px;
+    }
+
+
+
+    .graaboks p {
+        padding: 0px 300px 0px 300px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1300px) {
+    .daase img {
+        width: 40%;
+    }
+
+    .blaaboks img {
+        width: 50%;
+    }
+
+    .blaaboks {
+        height: 500px;
+    }
+
+}
+
 /* RESPONSIVE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* RESPONSIVE SLUT */
