@@ -290,7 +290,7 @@ span {
 .overskrift h1 {
     text-align: center;
     color: #093A82;
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 0vw;
     font-weight: 400;
@@ -362,36 +362,24 @@ span {
 
 .orangeboks {
     border: solid #FAC177;
-    height: 1200px;
+    height: 1100px;
 }
 
-.orangeboks h1 {
-    text-align: center;
+.orangeboks h2 {
+    font-size: 1.2rem;
     color: #093A82;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
+    text-align: center;
+    font-family: 'opensans', sans-serif;
+    font-weight: 700;
 }
-
 
 
 .orangeboks p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
     color: #093A82;
 }
 
-
-
-.orangeboks h2 {
-    font-size: 2rem;
-    color: #093A82;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-}
 
 
 
@@ -399,6 +387,7 @@ span {
     text-transform: uppercase;
     color: #093A82;
     font-size: 1.2rem;
+    margin-bottom: 0;
 }
 
 .slidebar {
@@ -481,7 +470,7 @@ button {
     font-size: 1.2rem;
     color: #093A82;
     background-color: #BEE0D9;
-    padding: 14px 100px;
+    padding: 14px 70px;
     border-radius: 40px;
     cursor: pointer;
 
@@ -705,6 +694,16 @@ footer {
 
     /* HEADER SLUT */
 
+
+
+    .overskrift h1 {
+
+        font-size: 3.5rem;
+
+
+    }
+
+
     /* SPLASH */
 
     .headline h1 {
@@ -865,9 +864,25 @@ footer {
     .orangeboks {
         display: flex;
         flex-wrap: wrap;
-        height: 850px;
+        height: 900px;
 
     }
+
+    .orangeboks h2 {
+        font-size: 1.8rem;
+    }
+
+
+    .orangeboks p {
+        font-size: 1.5rem;
+
+
+    }
+
+    .orangeboks h3 {
+        font-size: 1.5rem;
+    }
+
 
 
 
