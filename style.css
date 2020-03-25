@@ -651,7 +651,7 @@ footer {
 
 @media only screen and (min-width: 800px) {
     body {
-        background-image: url(baggrundsbilleder/baggrund.png);
+        background-image: url(baggrundsbilleder/baggrund_opa.png);
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
@@ -732,7 +732,8 @@ footer {
         margin-top: -45vw;
     }
 
-
+    /* SPLASH  SLUT */
+    /* CITAT */
 
     .citat h2 {
         font-size: 3rem;
@@ -750,40 +751,47 @@ footer {
     }
 
 
-    /* TEKST SLUT */
+    /* CITAT  SLUT */
 
-    /* SMAG */
+
+    /* SMAG BLAA BOKS */
 
     .smag {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
 
 
     }
 
-    /*
+
     .smag img {
-        width: 60%;
+        width: 50%;
     }
-*/
 
 
-    .boks {
-        width: 30vw;
-
-    }
 
     .boks2 {
-        width: 60%;
+        width: 50%;
         height: 34vw;
 
     }
 
 
+    /* SMAG BLAA BOKS SLUT */
+
+    /* INFOGRAFIK */
 
 
 
-    /* SMAG SLUT */
+    /* INFOGRAFIK SLUT */
+
+    /* BLAA BOKS */
+
+
+
+
+    /* BLAA BOKS SLUT */
+
 
 }
 
