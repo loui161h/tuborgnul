@@ -461,7 +461,7 @@ span {
 
 
 .daase img {
-    width: 100%;
+    width: 60%;
 }
 
 .knap {
@@ -838,6 +838,28 @@ footer {
 
 
     /* KONKURRENCE */
+
+    .orangeboks {
+        display: flex;
+        flex-wrap: wrap;
+        height: 800px;
+
+    }
+
+    .konkurrence {
+        flex-grow: 1;
+        flex-basis: 400px;
+    }
+
+    .daase img {
+        width: 50%;
+        margin-top: 80px;
+
+
+    }
+
+
+
 
 
 
