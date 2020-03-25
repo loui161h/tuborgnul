@@ -184,6 +184,22 @@ span {
 }
 
 /* SMAG */
+
+.sectionwrapper_tre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.smag {
+    flex-grow: 3;
+    flex-basis: 400px;
+
+
+}
+
 .boks {
     background-color: #FAC177;
     width: 100%;
