@@ -388,7 +388,6 @@ span {
 .slidebar p {
     line-height: 22px;
     display: inline-block;
-    /*  padding: 0px 10px 0px 10px;*/
     color: #093A82;
     font-size: 1.2rem;
 
@@ -396,7 +395,6 @@ span {
 
 .slidecontainer {
     width: 100%;
-    /* Width of the outside container */
 }
 
 
@@ -405,11 +403,9 @@ span {
     -webkit-appearance: none;
     width: 100%;
     height: 1px;
-    /* border-radius: 5px;*/
     background-color: #093A82;
     outline: none;
-    /*  -webkit-transition: .2s;
-    transition: opacity .2s;*/
+
 }
 
 .slider::-webkit-slider-thumb {
@@ -445,8 +441,6 @@ span {
 .knap {
     display: flex;
     justify-content: space-around;
-    /* padding-left: 90px;
-    padding-right: 90px;*/
     position: relative;
 
 }
@@ -678,14 +672,6 @@ footer {
 }
 
 
-@media only screen and (min-width: 630px) {
-
-    /* .daase img {
-        width: 50%;
-    }*/
-
-
-}
 
 
 @media only screen and (min-width: 670px) {
@@ -960,8 +946,6 @@ footer {
 
     .blaaboks p {
         font-size: 1rem;
-        /*  padding-top: 80px;
-        margin: 30px;*/
     }
 
     .tekstvenstre {
@@ -989,29 +973,6 @@ footer {
         height: 900px;
 
     }
-
-    /*    .orangeboks h2 {
-        font-size: 1.8rem;
-    }
-
-
-    .orangeboks p {
-        font-size: 1.5rem;
-
-
-    }
-
-    .orangeboks h3 {
-        font-size: 1.5rem;
-    }
-
-
-
-
-    .konkurrence {
-        flex-grow: 1;
-        flex-basis: 400px;
-    }*/
 
     .daase img {
         width: 50%;
@@ -1214,24 +1175,6 @@ footer {
 }
 
 /* RESPONSIVE */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* RESPONSIVE SLUT */
